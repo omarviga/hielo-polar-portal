@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout";
 import { SectionTitle } from "@/components/ui/section-title";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -23,8 +22,7 @@ const ServicesPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Nuestros Servicios</h1>
             <div className="h-1 w-20 bg-white mt-4 mb-8 rounded-full" />
             <p className="text-xl">
-              Ofrecemos servicios completos de distribución y atención 
-              personalizada para satisfacer todas sus necesidades de hielo.
+              Ofrecemos soluciones integrales de distribución y atención personalizada, diseñadas para satisfacer las necesidades específicas de cada cliente.
             </p>
           </div>
         </div>
@@ -36,7 +34,7 @@ const ServicesPage = () => {
         <div className="container">
           <SectionTitle 
             title="Servicios que Ofrecemos" 
-            subtitle="Soluciones completas para sus necesidades de hielo"
+            subtitle="Soluciones completas y personalizadas para sus necesidades de hielo"
             center
           />
           
@@ -51,8 +49,7 @@ const ServicesPage = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">
-                  Ofrecemos venta al público y distribución mayorista para satisfacer 
-                  todas sus necesidades de hielo.
+                  Proveemos hielo al público y a mayoristas, garantizando calidad y precios competitivos para satisfacer todas sus necesidades.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center">
@@ -81,8 +78,7 @@ const ServicesPage = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">
-                  Disponible para bolsas de hielo en diferentes presentaciones. 
-                  Servicio eficiente y puntual.
+                  Ofrecemos un servicio eficiente y puntual de entrega a domicilio, con diversas presentaciones de bolsas de hielo para su conveniencia.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center">
@@ -91,7 +87,7 @@ const ServicesPage = () => {
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-ice-500 mr-2" />
-                    <span>Diferentes presentaciones</span>
+                    <span>Diversas presentaciones</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-ice-500 mr-2" />
@@ -111,8 +107,7 @@ const ServicesPage = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">
-                  Para clientes frecuentes, ofrecemos conservadores de diferentes 
-                  capacidades según sus necesidades.
+                  Para nuestros clientes frecuentes, proporcionamos conservadores de diversas capacidades, asegurando la calidad del producto hasta su destino final.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center">
@@ -136,33 +131,33 @@ const ServicesPage = () => {
           <div className="mt-20">
             <SectionTitle 
               title="Préstamo de Conservadores" 
-              subtitle="Para nuestros clientes frecuentes"
+              subtitle="Comprometidos con la calidad y la satisfacción de nuestros clientes"
             />
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-gray-700 mb-6">
-                  En Hielo Polar del Centro, nos preocupamos por la calidad de nuestro producto 
-                  hasta que llega al consumidor final. Por eso, ofrecemos a nuestros clientes 
-                  frecuentes el préstamo de conservadores de diferentes capacidades.
+                  En Hielo Polar del Centro, nos aseguramos de que nuestro producto mantenga su calidad hasta llegar al consumidor final. Por ello, ofrecemos a nuestros clientes frecuentes el préstamo de conservadores adaptados a sus necesidades.
                 </p>
-                <h3 className="text-xl font-semibold text-ice-700 mb-4">Disponibilidad de Conservadores:</h3>
+                <h3 className="text-xl font-semibold text-ice-700 mb-4">
+                  Capacidades disponibles:
+                </h3>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-ice-50 p-4 rounded-lg">
                     <h4 className="font-medium text-ice-700">Conservador pequeño</h4>
-                    <p className="text-gray-600">Capacidad: 20 bolsas de 5 kg</p>
+                    <p className="text-gray-600">20 bolsas de 5 kg</p>
                   </div>
                   <div className="bg-ice-50 p-4 rounded-lg">
                     <h4 className="font-medium text-ice-700">Conservador mediano</h4>
-                    <p className="text-gray-600">Capacidad: 40 bolsas de 5 kg</p>
+                    <p className="text-gray-600">40 bolsas de 5 kg</p>
                   </div>
                   <div className="bg-ice-50 p-4 rounded-lg">
                     <h4 className="font-medium text-ice-700">Conservador grande</h4>
-                    <p className="text-gray-600">Capacidad: 60 bolsas de 5 kg</p>
+                    <p className="text-gray-600">60 bolsas de 5 kg</p>
                   </div>
                   <div className="bg-ice-50 p-4 rounded-lg">
                     <h4 className="font-medium text-ice-700">Conservador extra grande</h4>
-                    <p className="text-gray-600">Capacidad: 100 bolsas de 5 kg</p>
+                    <p className="text-gray-600">100 bolsas de 5 kg</p>
                   </div>
                 </div>
                 <div className="mt-8">
@@ -185,7 +180,7 @@ const ServicesPage = () => {
           <div className="mt-20 bg-ice-50 p-8 rounded-lg">
             <SectionTitle 
               title="Horarios de Atención" 
-              subtitle="A su servicio"
+              subtitle="Siempre a su disposición"
               center
             />
             
